@@ -1,0 +1,169 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="StyleMark Properties LLC is a trusted family-owned construction company with over 19 years of experience delivering quality craftsmanship, remodeling, renovation, roofing, and property improvement services in Maryland.">
+    
+    <title>{% block title %}StyleMark Properties LLC | Construction & Remodeling Experts{% endblock %}</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    {% block extra_css %}
+    {% endblock %}
+</head>
+<body>
+
+    <!-- TOPBAR -->
+    <div class="topbar">
+        <div class="container topbar-flex">
+            <div class="contact-info">
+                <a href="tel:4103294776">
+                    <i class="fas fa-phone"></i> 410-329-4776
+                </a>
+                <a href="mailto:info@stylemarkllc.com">
+                    <i class="fas fa-envelope"></i> info@stylemarkllc.com
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/Stylemarkllc" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/14103294776" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-flex">
+
+            <!-- LOGO -->
+            <a href="{% url 'index' %}" class="logo">
+                <img src="{% static 'images/logo.jpeg' %}" alt="StyleMark Properties LLC Logo">
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU -->
+            <ul class="nav-menu">
+                <li><a href="{% url 'index' %}" class="{% if request.resolver_match.url_name == 'index' %}active{% endif %}">Home</a></li>
+                <li><a href="{% url 'about' %}" class="{% if request.resolver_match.url_name == 'about' %}active{% endif %}">About</a></li>
+
+                <!-- SERVICES DROPDOWN -->
+                <li class="dropdown">
+                    <a href="#">
+                        Services <i class="fas fa-chevron-down" style="font-size: 10px;"></i>
+                    </a>
+                    <ul class="dropdown-content">
+                        <li><a href="{% url 'bathroom_remodeling' %}">Bathroom Remodeling</a></li>
+                        <li><a href="{% url 'kitchen_remodeling' %}">Kitchen Remodeling</a></li>
+                        <li><a href="{% url 'roofing' %}">Roofing</a></li>
+                        <li><a href="{% url 'deck_construction' %}">Deck Construction</a></li>
+                        <li><a href="{% url 'full_renovation' %}">Full Renovation</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="{% url 'areas_we_serve' %}">Areas We Serve</a></li>
+                <li>
+                    <a href="{% url 'contact' %}" class="btn-cta">Get A Quote</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+
+            <!-- COLUMN 1: BRAND -->
+            <div class="footer-brand">
+                <img src="{% static 'images/logo-removebg-preview.png' %}" alt="StyleMark Properties LLC" class="footer-logo">
+                <p class="brand-desc">
+                    For over 19 years, StyleMark Properties LLC has delivered high-quality construction,
+                    remodeling, and renovation services with unmatched craftsmanship.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/Stylemarkllc" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/14103294776" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+
+            <!-- COLUMN 2: QUICK LINKS -->
+            <div class="footer-nav">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="{% url 'index' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About Us</a></li>
+                    <li><a href="{% url 'areas_we_serve' %}">Areas We Serve</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 3: SERVICES -->
+            <div class="footer-nav">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="{% url 'bathroom_remodeling' %}">Bathroom Remodeling</a></li>
+                    <li><a href="{% url 'kitchen_remodeling' %}">Kitchen Remodeling</a></li>
+                    <li><a href="{% url 'roofing' %}">Roofing</a></li>
+                    <li><a href="{% url 'deck_construction' %}">Deck Construction</a></li>
+                </ul>
+            </div>
+
+            <!-- COLUMN 4: CONTACT -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:4103294776">410-329-4776</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@stylemarkllc.com">info@stylemarkllc.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Randallstown, Maryland</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <div class="copyright">
+                    © 2026 <strong>StyleMark Properties LLC</strong>. All Rights Reserved.
+                </div>
+                <div class="designer">
+                    Developed by <a href="https://quantumcoresoftware.com/" class="qc-link" target="_blank">Quantum Core Software</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MAIN JS -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

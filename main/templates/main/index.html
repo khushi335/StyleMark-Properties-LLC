@@ -1,0 +1,1352 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- HERO SECTION -->
+<section class="carousel-container">
+    <div class="carousel-slider">
+        
+        <!-- Slide 1 -->
+        <div class="slide active" style="background-image: url('{% static 'images/slide-1.jpg' %}');">
+            <div class="slide-content">
+                <span class="badge">19+ Years Experience</span>
+                <h1>Building with <span class="text-gradient">Quality</span> & Precision</h1>
+                <p>StyleMark Properties LLC delivers trusted construction, remodeling, roofing, and renovation services across Maryland.</p>
+                <div class="slide-btns">
+                    <a href="#contact" class="btn-glow">Start Your Project</a>
+                    <a href="#about" class="btn-glass">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('{% static 'images/kitchen.jpg' %}');">
+            <div class="slide-content">
+                <span class="badge">Kitchen Remodeling</span>
+                <h1>Modern Kitchens Built for <span class="text-gradient">Living</span></h1>
+                <p>Custom cabinetry, elegant finishes, and expert craftsmanship tailored to your lifestyle.</p>
+                <div class="slide-btns">
+                    <a href="#contact" class="btn-glow">Get a Free Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: url('{% static 'images/bathroom.jpg' %}');">
+            <div class="slide-content">
+                <span class="badge">Luxury Bathrooms</span>
+                <h1>Create Your Personal <span class="text-gradient">Retreat</span></h1>
+                <p>Beautiful bathroom renovations featuring premium tile work, lighting, and modern fixtures.</p>
+                <div class="slide-btns">
+                    <a href="#contact" class="btn-glow">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide" style="background-image: url('{% static 'images/roofing.jpg' %}');">
+            <div class="slide-content">
+                <span class="badge">Roofing Services</span>
+                <h1>Reliable Roofing That <span class="text-gradient">Protects</span></h1>
+                <p>Professional roof installation and repairs designed for durability, safety, and long-term performance.</p>
+                <div class="slide-btns">
+                    <a href="#contact" class="btn-glow">View Roofing Services</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide" style="background-image: url('{% static 'images/remodeling.jpg' %}');">
+            <div class="slide-content">
+                <span class="badge">Full Renovations</span>
+                <h1>Transforming Homes with <span class="text-gradient">Excellence</span></h1>
+                <p>From complete home renovations to custom upgrades, we bring your vision to life with unmatched attention to detail.</p>
+                <div class="slide-btns">
+                    <a href="#contact" class="btn-glow">Explore Services</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Carousel Navigation -->
+    <div class="carousel-nav">
+        <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- Dots -->
+    <div class="carousel-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+
+<!-- ABOUT FEATURE SECTION -->
+<section id="about" class="about-feature">
+    <div class="container">
+        <div class="feature-grid">
+            
+            <!-- Left Side -->
+            <div class="feature-image-block">
+
+                <div class="image-stack">
+
+                    <img src="{% static 'images/about-main.jpg' %}"
+                         alt="StyleMark Properties LLC"
+                         class="main-img">
+
+                    <!-- Decorative Accent -->
+                    <div class="image-accent-border"></div>
+
+                    <!-- Experience Card -->
+                    <div class="experience-card-modern">
+
+                        <div class="exp-content">
+
+                            <span class="number">19+</span>
+
+                            <div class="exp-text">
+                                <span class="label-top">Years of</span>
+                                <span class="label-bottom">Excellence</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Trust Badge -->
+                    <div class="trust-pill">
+                        <i class="fas fa-certificate"></i>
+                        <span>Licensed & Insured</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="feature-text-block">
+
+                <div class="text-header">
+
+                    <span class="tagline-modern">
+                        Family Owned • Trusted • Professional
+                    </span>
+
+                    <h1 class="display-title">
+                        Maryland’s Trusted <br>
+                        <span>Construction Experts</span>
+                    </h1>
+
+                </div>
+
+                <p class="description-text">
+                    StyleMark Properties LLC has proudly served homeowners and businesses
+                    with high-quality remodeling, renovation, roofing, and construction
+                    services built on craftsmanship, integrity, and customer satisfaction.
+                </p>
+
+                <!-- Feature Grid -->
+                <div class="bento-process">
+
+                    <div class="bento-item">
+
+                        <div class="icon-wrap">
+                            <i class="fas fa-users"></i>
+                        </div>
+
+                        <div class="bento-body">
+                            <h3>Client Focused</h3>
+                            <p>We listen carefully and bring your vision to life.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="bento-item">
+
+                        <div class="icon-wrap">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+
+                        <div class="bento-body">
+                            <h3>Quality Craftsmanship</h3>
+                            <p>Expert remodeling, roofing, and renovation solutions.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Action Area -->
+                <div class="action-footer">
+
+                    <a href="#contact" class="btn-modern">
+                        Get a Free Consultation
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="tel:4103294776" class="phone-display-modern">
+
+                        <div class="pulse-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+
+                        <div class="phone-text">
+                            <small>Call Direct</small>
+                            <strong>(410) 329-4776</strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TRUST & CREDENTIALS SECTION -->
+<section class="trust-strip">
+    <div class="trust-wrapper">
+        
+        <!-- Licensed -->
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+
+            <div class="trust-content">
+                <h3>Licensed & Insured</h3>
+                <p>Residential & Commercial Services</p>
+            </div>
+
+        </div>
+
+        <!-- Divider -->
+        <div class="trust-divider"></div>
+
+        <!-- Experience -->
+        <div class="trust-item">
+
+            <div class="trust-icon bbb-container">
+                <i class="fas fa-hammer"></i>
+                <span class="rating-pill">19+</span>
+            </div>
+
+            <div class="trust-content">
+                <h3>Years of Experience</h3>
+                <p>Trusted Craftsmanship & Quality</p>
+            </div>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="trust-cta">
+            <a href="#contact" class="btn-trust">
+                Get Free Estimate
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT US SECTION -->
+<section id="about-us" class="about-section">
+
+    <div class="edge-container">
+
+        <div class="about-grid">
+            
+            <!-- Left: Content -->
+            <article class="about-content">
+
+                <header class="about-header">
+
+                    <span class="eyebrow">
+                        Serving Maryland for 19+ Years
+                    </span>
+
+                    <h2>
+                        Maryland’s Trusted Experts for
+                        <span class="text-orange">Construction & Remodeling</span>
+                    </h2>
+
+                </header>
+
+                <div class="about-body">
+
+                    <p class="lead">
+                        Looking for a company you can trust to deliver quality results?
+                        <strong>StyleMark Properties LLC</strong> has proudly provided
+                        professional construction, remodeling, and renovation services
+                        with honesty, precision, and craftsmanship.
+                    </p>
+                    
+                    <p>
+                        We proudly serve homeowners and businesses throughout Maryland,
+                        delivering high-quality remodeling, roofing, renovation, and
+                        construction services with unmatched professionalism and care.
+                    </p>
+
+                    <!-- Specialty Tags -->
+                    <div class="specialty-tags">
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Carroll County, MD
+                        </span>
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Columbia, MD
+                        </span>
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Owings, MD
+                        </span>
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Windsor Mill Manor, MD
+                        </span>
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Reisterstown, MD
+                        </span>
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Randallstown, MD
+                        </span>
+
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ellicott City, MD
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Right: Contact Card -->
+            <aside class="contact-sidebar">
+
+                <div class="sidebar-card">
+
+                    <h3>Start Your Project</h3>
+
+                    <p>
+                        Contact StyleMark Properties LLC today for a free consultation
+                        and professional project assessment.
+                    </p>
+                    
+                    <div class="sidebar-info">
+
+                        <a href="tel:4103294776" class="phone-display">
+
+                            <i class="fas fa-phone-volume"></i>
+
+                            <div>
+
+                                <small>
+                                    Call for Free Consultation
+                                </small>
+
+                                <br>
+
+                                <strong>
+                                    (410) 329-4776
+                                </strong>
+
+                                <br><br><br>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                    <a href="#contact" class="btn-sidebar">
+                        Book Consultation
+                    </a>
+
+                    <br><br><br><br><br><br>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="work-showcase">
+
+    <div class="edge-to-edge-wrapper">
+
+        <div class="showcase-header">
+
+            <span class="badge">
+                Our Portfolio
+            </span>
+
+            <h2>
+                Transforming Maryland Homes with
+                <span class="accent-text">Expert Craftsmanship</span>
+            </h2>
+
+        </div>
+
+        <div class="mosaic-grid">
+
+            <!-- Kitchen -->
+            <div class="mosaic-item kitchen tall">
+
+                <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1200&q=80"
+                     alt="Kitchen Remodeling">
+
+                <div class="mosaic-overlay">
+
+                    <div class="overlay-inner">
+
+                        <i class="fas fa-utensils"></i>
+
+                        <h3>Kitchen Remodeling</h3>
+
+                        <p>
+                            Beautiful kitchens designed for comfort,
+                            functionality, and modern living.
+                        </p>
+
+                        <a href="{% url 'kitchen_remodeling' %}"
+                           class="view-btn">
+                            Explore
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Bathroom -->
+            <div class="mosaic-item bathroom">
+
+                <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1000&q=80"
+                     alt="Bathroom Remodeling">
+
+                <div class="mosaic-overlay">
+
+                    <div class="overlay-inner">
+
+                        <i class="fas fa-bath"></i>
+
+                        <h3>Bathroom Renovations</h3>
+
+                        <p>
+                            Luxury bathrooms crafted for relaxation,
+                            elegance, and efficiency.
+                        </p>
+
+                        <a href="{% url 'bathroom_remodeling' %}"
+                           class="view-btn">
+                            Explore
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Roofing -->
+            <div class="mosaic-item basement">
+
+                <img src="{% static 'images/roofing_remodeling.jpg' %}"
+                     alt="Roofing Services">
+
+                <div class="mosaic-overlay">
+
+                    <div class="overlay-inner">
+
+                        <i class="fas fa-home"></i>
+
+                        <h3>Roofing Services</h3>
+
+                        <p>
+                            Durable roofing solutions built to protect
+                            your home and investment.
+                        </p>
+
+                        <a href="#"
+                           class="view-btn">
+                            Explore
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Renovation -->
+            <div class="mosaic-item additions">
+
+                <img src="{% static 'images/rennovation.jpg' %}"
+                     alt="Home Renovation">
+
+                <div class="mosaic-overlay">
+
+                    <div class="overlay-inner">
+
+                        <i class="fas fa-tools"></i>
+
+                        <h3>Full Renovations</h3>
+
+                        <p>
+                            Complete home transformations tailored
+                            to your style and vision.
+                        </p>
+
+                        <a href="#"
+                           class="view-btn">
+                            Explore
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY CHOOSE US SECTION -->
+<section id="why-choose-us" class="why-section">
+
+    <div class="edge-container">
+        
+        <div class="section-intro">
+
+            <span class="eyebrow">
+                The StyleMark Advantage
+            </span>
+
+            <h2>
+                Why Maryland Homeowners <br>
+                <span class="text-orange">Choose StyleMark Properties LLC</span>
+            </h2>
+
+        </div>
+
+        <div class="bento-grid">
+            
+            <!-- Experience -->
+            <div class="bento-card card-dark">
+
+                <div class="card-content">
+
+                    <span class="stat">19+</span>
+
+                    <h3>Years of Experience</h3>
+
+                    <p>
+                        Delivering trusted construction, remodeling,
+                        roofing, and renovation services with unmatched
+                        craftsmanship and professionalism.
+                    </p>
+
+                </div>
+
+                <div class="card-icon">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+
+            </div>
+
+            <!-- Customer Focus -->
+            <div class="bento-card">
+
+                <div class="card-icon-top">
+                    <i class="fas fa-users"></i>
+                </div>
+
+                <h3>Client-Focused Service</h3>
+
+                <p>
+                    We listen carefully to your needs and create
+                    personalized solutions that match your vision
+                    and budget.
+                </p>
+
+            </div>
+
+            <!-- Licensed -->
+            <div class="bento-card">
+
+                <div class="card-icon-top">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+
+                <h3>Licensed & Insured</h3>
+
+                <p>
+                    Your property is protected with professional,
+                    fully insured construction and renovation services.
+                </p>
+
+            </div>
+
+            <!-- Services -->
+            <div class="bento-card card-wide">
+
+                <div class="card-flex">
+
+                    <div class="flex-text">
+
+                        <h3>Complete Construction Solutions</h3>
+
+                        <p>
+                            From kitchen and bathroom remodeling to roofing,
+                            renovations, and maintenance — every project
+                            receives expert attention and quality craftsmanship.
+                        </p>
+
+                    </div>
+
+                    <div class="flex-icons">
+
+                        <i class="fas fa-utensils" title="Kitchen"></i>
+
+                        <i class="fas fa-bath" title="Bathroom"></i>
+
+                        <i class="fas fa-home" title="Roofing"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-20 bg-gray-50 px-6 overflow-hidden">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+
+            <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
+                Our Purpose & Promise
+            </h2>
+
+            <div class="w-20 h-1 bg-yellow-500 mx-auto rounded-full"></div>
+
+            <p class="mt-6 text-lg text-slate-600 max-w-2xl mx-auto italic">
+                "Quality craftsmanship and integrity are the foundation of every project we build."
+            </p>
+
+        </div>
+
+        <!-- Mission & Vision -->
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+            
+            <!-- Mission -->
+            <div class="group relative bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+
+                <div class="absolute -top-6 left-8 bg-slate-900 text-white p-4 rounded-xl shadow-lg group-hover:bg-yellow-500 transition-colors">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         class="h-8 w-8"
+                         fill="none"
+                         viewBox="0 0 24 24"
+                         stroke="currentColor">
+
+                        <path stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M13 10V3L4 14h7v7l9-11h-7z" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-2xl font-bold text-slate-900 mt-4 mb-4 uppercase tracking-widest">
+                    Our Mission
+                </h3>
+
+                <p class="text-slate-600 leading-relaxed text-lg">
+                    Our mission is to provide exceptional construction,
+                    remodeling, roofing, and renovation services with
+                    honesty, professionalism, and attention to detail.
+                    We are committed to delivering durable, high-quality
+                    workmanship that exceeds client expectations.
+                </p>
+
+            </div>
+
+            <!-- Vision -->
+            <div class="group relative bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+
+                <div class="absolute -top-6 left-8 bg-slate-900 text-white p-4 rounded-xl shadow-lg group-hover:bg-yellow-500 transition-colors">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         class="h-8 w-8"
+                         fill="none"
+                         viewBox="0 0 24 24"
+                         stroke="currentColor">
+
+                        <path stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+
+                        <path stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-2xl font-bold text-slate-900 mt-4 mb-4 uppercase tracking-widest">
+                    Our Vision
+                </h3>
+
+                <p class="text-slate-600 leading-relaxed text-lg">
+                    Our vision is to become Maryland’s most trusted
+                    construction and remodeling company by transforming
+                    homes and properties through innovative design,
+                    reliable service, and superior craftsmanship that
+                    stands the test of time.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="services-section">
+
+    <div class="services-container">
+
+        <!-- Section Header -->
+        <div class="section-header">
+
+            <span class="sub-title">
+                Professional Construction Services
+            </span>
+
+            <h2>
+                Our Premium Services
+            </h2>
+
+            <p>
+                StyleMark Properties LLC delivers high-quality remodeling,
+                renovation, roofing, and construction solutions tailored
+                to your home and business needs.
+            </p>
+
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+
+            <!-- Kitchen Remodeling -->
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <svg viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2">
+
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+
+                    </svg>
+
+                </div>
+
+                <h3>Kitchen Remodeling</h3>
+
+                <p>
+                    Beautiful custom kitchens with modern layouts,
+                    cabinetry, countertops, and premium finishes.
+                </p>
+
+                <a href="{% url 'kitchen_remodeling' %}"
+                   class="service-link">
+                    View Details →
+                </a>
+
+            </div>
+
+            <!-- Bathroom Remodeling -->
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <svg viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2">
+
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+
+                        <path d="M9 22V12h6v10"></path>
+
+                    </svg>
+
+                </div>
+
+                <h3>Bathroom Remodeling</h3>
+
+                <p>
+                    Luxury bathroom renovations featuring custom tile,
+                    elegant fixtures, and modern functionality.
+                </p>
+
+                <a href="{% url 'bathroom_remodeling' %}"
+                   class="service-link">
+                    View Details →
+                </a>
+
+            </div>
+
+            <!-- Roofing -->
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <svg viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2">
+
+                        <rect x="3"
+                              y="3"
+                              width="18"
+                              height="18"
+                              rx="2"
+                              ry="2"></rect>
+
+                        <line x1="3"
+                              y1="9"
+                              x2="21"
+                              y2="9"></line>
+
+                        <line x1="9"
+                              y1="21"
+                              x2="9"
+                              y2="9"></line>
+
+                    </svg>
+
+                </div>
+
+                <h3>Roofing Services</h3>
+
+                <p>
+                    Reliable roofing installation and repair services
+                    designed to protect your home year-round.
+                </p>
+
+                <a href="#"
+                   class="service-link">
+                    View Details →
+                </a>
+
+            </div>
+
+            <!-- Renovation -->
+            <div class="service-card">
+
+                <div class="service-icon">
+
+                    <svg viewBox="0 0 24 24"
+                         fill="none"
+                         stroke="currentColor"
+                         stroke-width="2">
+
+                        <path d="M12 20v-6M9 17.63V14a3 3 0 0 1 6 0v3.63"></path>
+
+                        <path d="M3 10a9 9 0 0 1 18 0"></path>
+
+                    </svg>
+
+                </div>
+
+                <h3>Full Renovations</h3>
+
+                <p>
+                    Complete home and property renovations customized
+                    to fit your vision, lifestyle, and budget.
+                </p>
+
+                <a href="#"
+                   class="service-link">
+                    View Details →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--<section class="expertise-section">-->
+
+<!--    <div class="expertise-container">-->
+
+        <!-- Left Content -->
+<!--        <div class="expertise-intro">-->
+
+<!--            <span class="tag">-->
+<!--                Our Expertise-->
+<!--            </span>-->
+
+<!--            <h2 class="display-title">-->
+<!--                Exceptional <br>-->
+<!--                <span>Craftsmanship.</span>-->
+<!--            </h2>-->
+
+<!--            <p>-->
+<!--                From remodeling and renovations to roofing and custom-->
+<!--                construction, StyleMark Properties LLC delivers-->
+<!--                professional results with precision and attention to detail.-->
+<!--            </p>-->
+
+<!--            <a href="#contact" class="transformation-btn">-->
+<!--                Start Your Project →-->
+<!--            </a>-->
+
+<!--        </div>-->
+
+        <!-- Right Content -->
+<!--        <div class="expertise-list">-->
+            
+            <!-- Item 01 -->
+<!--            <div class="expertise-item">-->
+
+<!--                <div class="item-number">-->
+<!--                    01-->
+<!--                </div>-->
+
+<!--                <div class="item-content">-->
+
+<!--                    <h3>Kitchen Remodeling</h3>-->
+
+<!--                    <p>-->
+<!--                        Modern kitchen transformations with custom-->
+<!--                        cabinetry, elegant countertops, and functional layouts.-->
+<!--                    </p>-->
+
+<!--                </div>-->
+
+<!--                <div class="item-image">-->
+
+<!--                    <img src="{% static 'images/kitchen-remodel.jpg' %}"-->
+<!--                         alt="Kitchen Remodeling">-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+
+            <!-- Item 02 -->
+<!--            <div class="expertise-item">-->
+
+<!--                <div class="item-number">-->
+<!--                    02-->
+<!--                </div>-->
+
+<!--                <div class="item-content">-->
+
+<!--                    <h3>Bathroom Renovations</h3>-->
+
+<!--                    <p>-->
+<!--                        Luxury bathrooms designed with premium tile,-->
+<!--                        stylish fixtures, and spa-inspired comfort.-->
+<!--                    </p>-->
+
+<!--                </div>-->
+
+<!--                <div class="item-image">-->
+
+<!--                    <img src="{% static 'images/bathroom-remodel.jpg' %}"-->
+<!--                         alt="Bathroom Remodeling">-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+
+            <!-- Item 03 -->
+<!--            <div class="expertise-item">-->
+
+<!--                <div class="item-number">-->
+<!--                    03-->
+<!--                </div>-->
+
+<!--                <div class="item-content">-->
+
+<!--                    <h3>Roofing Services</h3>-->
+
+<!--                    <p>-->
+<!--                        Durable roofing installations and repairs-->
+<!--                        that provide long-lasting protection and reliability.-->
+<!--                    </p>-->
+
+<!--                </div>-->
+
+<!--                <div class="item-image">-->
+
+<!--                    <img src="{% static 'images/roofing-service.jpg' %}"-->
+<!--                         alt="Roofing Services">-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+
+            <!-- Item 04 -->
+<!--            <div class="expertise-item">-->
+
+<!--                <div class="item-number">-->
+<!--                    04-->
+<!--                </div>-->
+
+<!--                <div class="item-content">-->
+
+<!--                    <h3>Full Renovations</h3>-->
+
+<!--                    <p>-->
+<!--                        Complete property transformations tailored-->
+<!--                        to your vision, lifestyle, and investment goals.-->
+<!--                    </p>-->
+
+<!--                </div>-->
+
+<!--                <div class="item-image">-->
+
+<!--                    <img src="{% static 'images/home-renovation.jpg' %}"-->
+<!--                         alt="Home Renovation">-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+
+<!--        </div>-->
+
+<!--    </div>-->
+
+<!--</section>-->
+
+<section class="premium-areas">
+
+    <div class="glass-container">
+
+        <!-- Header -->
+        <div class="header-stack">
+
+            <div class="brand-tag">
+                Our Reach
+            </div>
+
+            <h2 class="display-title">
+                Maryland's Trusted <br>
+                <span>Construction Partner</span>
+            </h2>
+
+            <p class="service-description">
+                StyleMark Properties LLC proudly provides expert remodeling,
+                roofing, renovation, and construction services throughout
+                Maryland communities with professionalism and quality craftsmanship.
+            </p>
+
+        </div>
+
+        <!-- Areas -->
+        <div class="area-chip-cloud">
+
+            <div class="chip">
+                <span>Carroll County, MD</span>
+            </div>
+
+            <div class="chip">
+                <span>Columbia, MD</span>
+            </div>
+
+            <div class="chip">
+                <span>Owings, MD</span>
+            </div>
+
+            <div class="chip">
+                <span>Windsor Mill Manor, MD</span>
+            </div>
+
+            <div class="chip">
+                <span>Reisterstown, MD</span>
+            </div>
+
+            <div class="chip">
+                <span>Randallstown, MD</span>
+            </div>
+
+            <div class="chip">
+                <span>Ellicott City, MD</span>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="area-footer">
+
+            <p>
+                Don’t see your location?
+                <a href="#contact">
+                    Contact us for service availability
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-container">
+
+        <div class="contact-wrapper">
+            
+            <!-- Left Side -->
+            <div class="contact-info">
+
+                <div class="contact-header">
+
+                    <span class="tag">
+                        Get In Touch
+                    </span>
+
+                    <h2>
+                        Let’s Build Something <br>
+                        <span>Extraordinary</span>
+                    </h2>
+
+                    <p>
+                        Ready to transform your property?
+                        Contact StyleMark Properties LLC today
+                        for a free consultation and estimate.
+                    </p>
+
+                </div>
+
+                <div class="info-items">
+
+                    <!-- Phone -->
+                    <a href="tel:+14103294776" class="info-card">
+
+                        <div class="icon-box">
+
+                            <svg viewBox="0 0 24 24"
+                                 fill="none"
+                                 stroke="currentColor"
+                                 stroke-width="2">
+
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <div>
+
+                            <h4>
+                                Call Us Directly
+                            </h4>
+
+                            <p>
+                                (410) 329-4776
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:info@stylemarkllc.com" class="info-card">
+
+                        <div class="icon-box">
+
+                            <svg viewBox="0 0 24 24"
+                                 fill="none"
+                                 stroke="currentColor"
+                                 stroke-width="2">
+
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+
+                                <polyline points="22,6 12,13 2,6"></polyline>
+
+                            </svg>
+
+                        </div>
+
+                        <div>
+
+                            <h4>
+                                Email Support
+                            </h4>
+
+                            <p>
+                                info@stylemarkllc.com
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="contact-form-card">
+
+                <form action="#" class="modern-form">
+
+                    <div class="form-grid">
+
+                        <div class="input-group">
+
+                            <label>
+                                Full Name
+                            </label>
+
+                            <input type="text"
+                                   placeholder="John Doe"
+                                   required>
+
+                        </div>
+
+                        <div class="input-group">
+
+                            <label>
+                                Email Address
+                            </label>
+
+                            <input type="email"
+                                   placeholder="john@example.com"
+                                   required>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <label>
+                            Service Interested In
+                        </label>
+
+                        <select>
+
+                            <option>
+                                Kitchen Remodeling
+                            </option>
+
+                            <option>
+                                Bathroom Remodeling
+                            </option>
+
+                            <option>
+                                Roofing Services
+                            </option>
+
+                            <option>
+                                Full Renovation
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <label>
+                            How Can We Help?
+                        </label>
+
+                        <textarea rows="4"
+                                  placeholder="Tell us about your project..."></textarea>
+
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+
+                        Send Message
+
+                        <svg viewBox="0 0 24 24"
+                             width="18"
+                             fill="none"
+                             stroke="currentColor"
+                             stroke-width="2">
+
+                            <line x1="22"
+                                  y1="2"
+                                  x2="11"
+                                  y2="13"></line>
+
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+
+                        </svg>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+{% endblock %}

@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Areas We Serve | StyleMark Properties LLC{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/service-detail.css' %}">
+<style>
+    .areas-hero {
+        /* Using a generic Maryland-themed overlay or your existing construction slide */
+        background: linear-gradient(rgba(45, 45, 45, 0.8), rgba(45, 45, 45, 0.8)), 
+                    url("{% static 'images/maryland.jpg' %}");
+        background-size: cover;
+        background-position: center;
+        padding: 120px 0 80px;
+        text-align: center;
+        color: white;
+    }
+
+    .areas-section {
+        padding: 100px 0;
+        background-color: #f8f9fa;
+    }
+
+    .city-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .city-card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        display: flex;
+        align-items: center;
+        transition: all 0.4s ease;
+        border: 1px solid transparent;
+    }
+
+    .city-card:hover {
+        transform: translateY(-10px);
+        border-color: var(--accent);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    }
+
+    .city-card i {
+        font-size: 1.5rem;
+        color: var(--accent);
+        margin-right: 20px;
+        background: rgba(255, 107, 53, 0.1); /* Matching your Modern Orange accent */
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .city-card span {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primary);
+    }
+
+    .coverage-note {
+        margin-top: 60px;
+        text-align: center;
+        padding: 40px;
+        background: white;
+        border-radius: 20px;
+        border: 2px dashed #dee2e6;
+    }
+
+    /* Responsive Logic */
+    @media (max-width: 1024px) {
+        .city-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 600px) {
+        .city-grid { grid-template-columns: 1fr; gap: 15px; }
+        .areas-hero h1 { font-size: 2.2rem; }
+        .city-card { padding: 20px; }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<main id="areas">
+    <!-- Hero Header -->
+    <section class="areas-hero">
+        <div class="container">
+            <span class="badge" style="color: var(--white); background: var(--accent); padding: 5px 15px; border-radius: 20px; font-size: 0.8rem;">Local & Reliable</span>
+            <h1 style="margin-top: 15px;">Areas We <span>Serve</span></h1>
+            <p>Providing high-quality construction and remodeling services across Maryland and the surrounding communities.</p>
+        </div>
+    </section>
+
+    <!-- Cities List -->
+    <section class="areas-section">
+        <div class="container">
+            <div class="gallery-header" style="text-align: center; margin-bottom: 50px;">
+                <h2 class="section-title">Serving <span>Maryland</span> Communities</h2>
+                <p>We bring premium craftsmanship to your doorstep. Don't see your specific neighborhood? Give us a call!</p>
+            </div>
+
+            <div class="city-grid">
+                <!-- Locations -->
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Randallstown, MD</span></div>
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Columbia, MD</span></div>
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Ellicott City, MD</span></div>
+                
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Reisterstown, MD</span></div>
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Windsor Mill Manor, MD</span></div>
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Carroll County, MD</span></div>
+                
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Owings, MD</span></div>
+                <!-- Additional implied local service -->
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Baltimore County</span></div>
+                <div class="city-card"><i class="fas fa-map-marker-alt"></i><span>Howard County</span></div>
+            </div>
+
+            <div class="coverage-note">
+                <h3>Looking for a Quote in Your Area?</h3>
+                <p>We frequently accommodate specialized projects throughout the region. Contact us today to discuss your next home improvement project.</p>
+                <a href="{% url 'contact' %}" class="btn-cta" style="margin-top: 20px; display: inline-block; text-decoration: none;">Check Availability</a>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

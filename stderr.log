@@ -1,0 +1,1253 @@
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/css/{%20static 'images/slide-1.png' %7D/static/css/%7B%%20static%20'images/slide-1.png'%20%%7D
+Not Found: /favicon.ico
+Not Found: /static/css/about.css
+Not Found: /favicon.ico
+Not Found: /static/images/contractor-hero.png
+Not Found: /static/css/about.css
+Not Found: /favicon.ico
+Not Found: /static/css/about.css
+Not Found: /static/js/main.js
+Not Found: /favicon.ico
+Not Found: /static/css/{%20static 'images/slide-1.png' %7D/static/css/%7B%%20static%20'images/slide-1.png'%20%%7D
+[UID:1788][277705] Child process with pid: 277730 was killed by signal: 15, core dumped: no
+Not Found: /static/css/{%20static 'images/slide-1.png' %7D/static/css/%7B%%20static%20'images/slide-1.png'%20%%7D
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/bathroom-hero.png
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /services/bathroom-remodeling/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project25.quantumcoresoftware.com/ihiatlanta/main/views.py", line 11, in bathroom_remodeling
+    return render(request, 'main/bathroom-remodeling.html')
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'kitchen_remodeling' not found. 'kitchen_remodeling' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/kitchen1.jpg
+Not Found: /static/images/kitchen4.jpg
+Not Found: /static/images/kitchen3.jpg
+Not Found: /static/images/kitchen2.jpg
+Not Found: /static/images/kitchen7.jpg
+Not Found: /static/images/kitchen-hero.jpg
+Not Found: /static/images/kitchen5.jpg
+Not Found: /static/images/kitchen6.jpg
+Not Found: /static/images/kitchen9.jpg
+Not Found: /static/images/kitchen8.jpg
+Not Found: /static/images/kitchen12.jpg
+Not Found: /static/images/kitchen10.jpg
+Not Found: /static/images/kitchen11.jpg
+Not Found: /static/images/kitchen13.jpg
+Not Found: /static/images/kitchen14.jpg
+Not Found: /static/images/kitchen16.jpg
+Not Found: /static/images/kitchen15.jpg
+Not Found: /static/images/kitchen-hero.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/basement-hero.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /areas-we-serve/
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project25.quantumcoresoftware.com/ihiatlanta/main/views.py", line 20, in areas_we_serve
+    return render(request, 'main/areas-we-serve.html')
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project25.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'contact' not found. 'contact' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /wordpress/
+Not Found: /robots.txt
+Not Found: /.env.backup1
+Not Found: /.env.backup2
+Not Found: /phpinfo.php
+Not Found: /info.php
+Not Found: /php.php
+Not Found: /i.php
+Not Found: /pi.php
+Not Found: /pinfo.php
+Not Found: /test.php
+Not Found: /phpinfo
+Not Found: /p.php
+Not Found: /debug.php
+Not Found: /test/phpinfo.php
+Not Found: /dev/phpinfo.php
+Not Found: /old/phpinfo.php
+Not Found: /tmp/phpinfo.php
+Not Found: /public/phpinfo.php
+Not Found: /info
+Not Found: /php-info.php
+Not Found: /phpversion.php
+Not Found: /_phpinfo.php
+Not Found: /old_phpinfo.php
+Not Found: /server-info.php
+Not Found: /server-status.php
+Not Found: /_profiler/phpinfo
+Not Found: /_environment
+Not Found: /webroot/index.php/_environment
+Not Found: /mail/phpinfo.php
+Not Found: /cpanel/phpinfo.php
+Not Found: /hosting/phpinfo.php
+Not Found: /smtp/phpinfo.php
+Not Found: /phpinfo.php.bak
+Not Found: /phpinfo.php.old
+Not Found: /phpinfo.php~
+Not Found: /info.php.bak
+Not Found: /phpinfo.php.save
+Not Found: /staging/phpinfo.php
+Not Found: /beta/phpinfo.php
+Not Found: /uat/phpinfo.php
+Not Found: /qa/phpinfo.php
+Not Found: /preview/phpinfo.php
+Not Found: /www/phpinfo.php
+Not Found: /htdocs/phpinfo.php
+Not Found: /public_html/phpinfo.php
+Not Found: /site/phpinfo.php
+Not Found: /docs/phpinfo.php
+Not Found: /wp-admin/phpinfo.php
+Not Found: /administrator/phpinfo.php
+Not Found: /core/phpinfo.php
+Not Found: /includes/phpinfo.php
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+[UID:1788][3529775] Child process with pid: 3530167 was killed by signal: 15, core dumped: no
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /static/images/about-main.jpg
+Not Found: /static/images/logo.png
+Not Found: /static/images/slide-1.jpg
+Not Found: /static/images/remodeling.jpg
+Not Found: /static/images/roofing.jpg
+Not Found: /static/images/kitchen.jpg
+Not Found: /favicon.ico
+Not Found: /static/images/logo.png
+Not Found: /static/images/roofing.jpg
+Not Found: /static/images/slide-1.jpg
+Not Found: /static/images/kitchen.jpg
+Not Found: /static/images/remodeling.jpg
+Not Found: /favicon.ico
+Not Found: /static/images/kitchen.jpg
+Not Found: /static/images/roofing.jpg
+Not Found: /static/images/remodeling.jpg
+Not Found: /favicon.ico
+Not Found: /static/images/roofing.jpg
+Not Found: /static/images/kitchen.jpg
+Not Found: /static/images/remodeling.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hightech/project34.quantumcoresoftware.com/ihiatlanta/main/views.py", line 5, in index
+    return render(request,"main/index.html")
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 164, in _render
+    return self.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 1018, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/base.py", line 979, in render_annotated
+    return self.render(context)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/hightech/virtualenv/project34.quantumcoresoftware.com/ihiatlanta/3.10/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'roofing' not found. 'roofing' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/kitchen-remodel.jpg
+Not Found: /static/images/bathroom-remodel.jpg
+Not Found: /static/images/roofing-service.jpg
+Not Found: /static/images/home-renovation.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/kitchen1.jpg
+Not Found: /static/images/kitchen2.jpg
+Not Found: /static/images/kitchen0.jpg
+Not Found: /static/images/kitchen1.jpg
+Not Found: /static/images/kitchen2.jpg
+Not Found: /static/images/kitchen0.jpg
+Not Found: /favicon.ico
+Not Found: /static/images/bathroom17.jpg
+Not Found: /static/images/bathroom18.jpg
+Not Found: /static/images/bathroom19.jpg
+Not Found: /static/images/bathroom20.jpg
+Not Found: /static/images/bathroom22.jpg
+Not Found: /static/images/bathroom23.jpg
+Not Found: /static/images/bathroom21.jpg
+Not Found: /static/images/kitchen1.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/kitchen1.jpg
+Not Found: /static/images/roofing1.jpg
+Not Found: /static/images/roofing-main.jpg
+Not Found: /static/images/roofing2.jpg
+Not Found: /static/images/roofing3.jpg
+Not Found: /static/images/roofing4.jpg
+Not Found: /static/images/roofing-main.jpg
+Not Found: /static/images/roofing1.jpg
+Not Found: /static/images/roofing2.jpg
+Not Found: /static/images/roofing3.jpg
+Not Found: /static/images/roofing4.jpg
+Not Found: /favicon.ico
+Not Found: /static/images/roofing3.jpg
+Not Found: /static/images/roofing1.jpg
+Not Found: /static/images/roofing-main.jpg
+Not Found: /static/images/roofing2.jpg
+Not Found: /static/images/roofing4.jpg
+Not Found: /static/images/deck-main.jpg
+Not Found: /static/images/deck2.jpg
+Not Found: /static/images/deck3.jpg
+Not Found: /static/images/deck4.jpg
+Not Found: /static/images/deck1.jpg
+Not Found: /static/images/reno4.jpg
+Not Found: /static/images/reno2.jpg
+Not Found: /static/images/reno1.jpg
+Not Found: /static/images/renovation-main.jpg
+Not Found: /static/images/reno3.jpg
+Not Found: /static/images/renovation_hero.jpg
+Not Found: /favicon.ico
+Not Found: /static/images/deck-main.jpg
+Not Found: /static/images/deck1.jpg
+Not Found: /static/images/deck2.jpg
+Not Found: /static/images/deck3.jpg
+Not Found: /static/images/deck4.jpg
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/images/kitchen1.jpg
+Not Found: /static/images/kitchen1.jpg
+Not Found: /static/images/deck2.jpg
+Not Found: /static/images/deck3.jpg
+Not Found: /static/images/deck-main.jpg
+Not Found: /static/images/deck4.jpg
+Not Found: /static/images/deck1.jpg
+Not Found: /static/images/reno1.jpg
+Not Found: /static/images/renovation-main.jpg
+Not Found: /static/images/reno4.jpg
+Not Found: /static/images/reno3.jpg
+Not Found: /static/images/reno2.jpg
+Not Found: /static/images/renovation_hero.jpg
+Not Found: /favicon.ico

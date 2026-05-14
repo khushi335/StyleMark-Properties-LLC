@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About Us | StyleMark Properties LLC{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<main class="about-page">
+    <!-- Hero Section -->
+    <section class="about-hero" style="background: linear-gradient(rgba(45, 45, 45, 0.8), rgba(45, 45, 45, 0.8)), url('{% static 'images/contra.jpg' %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="hero-content">
+                <span class="sub-badge">Established Excellence</span>
+                <h1>Building With <span>Integrity</span> <br> Since 2007</h1>
+                <p>StyleMark Properties LLC is a premier construction and remodeling company. We provide high-quality craftsmanship and dedicated property improvement services across the Maryland region.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story-section">
+        <div class="container grid-2">
+            <div class="story-image">
+                <img src="{% static 'images/about-main.jpg' %}" alt="StyleMark Properties LLC Team at Work">
+                <div class="experience-tag">
+                    <span class="years">19+</span>
+                    <span class="text">Years Experience</span>
+                </div>
+            </div>
+            <div class="story-text">
+                <h2 class="section-title">The StyleMark <span>Standard</span></h2>
+                <p>Founded on the belief that home remodeling should be transparent, professional, and enduring, StyleMark Properties LLC has spent nearly two decades delivering excellence in Randallstown and the surrounding areas.</p>
+                <p>As a family-owned business, we don't cut corners. We treat every project as if it were our own home, specializing in everything from full renovations to meticulous roofing and maintenance work.</p>
+                
+                <ul class="benefit-list">
+                    <li><i class="fas fa-check-circle"></i> Licensed & Insured (MHIC #115313)</li>
+                    <li><i class="fas fa-check-circle"></i> Quality Family-Owned Craftsmanship</li>
+                    <li><i class="fas fa-check-circle"></i> Maryland Residential & Commercial Experts</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="text-center mb-60">
+                <h2 class="section-title">Our Core <span>Principles</span></h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">01</div>
+                    <h3>Commitment</h3>
+                    <p>We are dedicated to being the best in the construction industry through constant innovation and hard work.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">02</div>
+                    <h3>Quality</h3>
+                    <p>We use premium materials and time-tested methods to ensure your renovation stands the test of time.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">03</div>
+                    <h3>Customer Focus</h3>
+                    <p>Your vision is our priority. We maintain clear communication to ensure your total satisfaction with the result.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="about-cta">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to Start Your Transformation?</h2>
+                <p>Join the hundreds of satisfied homeowners in Maryland who trusted their vision to StyleMark Properties LLC.</p>
+                <a href="{% url 'contact' %}" class="btn-primary">Book Your Free Consultation</a>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

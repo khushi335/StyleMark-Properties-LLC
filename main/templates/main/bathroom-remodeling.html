@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Luxury Bathroom Remodeling | StyleMark Properties LLC{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/service-detail.css' %}">
+<style>
+    .service-hero {
+        background: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.7)), 
+                    url("{% static 'images/bathroom-hero.png' %}");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .feature i {
+        color: var(--accent); /* StyleMark Orange */
+        background: rgba(255, 107, 53, 0.1);
+        padding: 15px;
+        border-radius: 12px;
+        font-size: 1.5rem;
+    }
+
+    .gallery-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 107, 53, 0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: 0.3s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+        opacity: 1;
+    }
+
+    .gallery-overlay span {
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<main class="service-page">
+    <!-- Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <div class="hero-text">
+                <span class="badge" style="background: var(--accent); color: white;">Expert Remodeling</span>
+                <h1>Luxury <span>Bathroom</span> Transformations</h1>
+                <p>From spa-inspired master suites to modern guest baths, we bring "By the Book" precision to every project in Maryland.</p>
+                <a href="{% url 'contact' %}" class="cta-btn" style="background: var(--accent); color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: 700; display: inline-block; margin-top: 20px;">Request a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="details-section" style="padding: 80px 0;">
+        <div class="container grid-2" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; align-items: center;">
+            <div class="details-content">
+                <h2 class="section-title" style="font-size: 2.5rem; color: var(--primary);">Elevate Your <span>Daily Routine</span></h2>
+                <p style="color: #666; line-height: 1.8; margin-bottom: 30px;">At StyleMark Properties LLC, we believe a bathroom should be a sanctuary. We specialize in high-end renovations that combine premium materials with flawless execution across Columbia, Ellicott City, and Randallstown.</p>
+                
+                <div class="service-features">
+                    <div class="feature" style="display: flex; gap: 20px; margin-bottom: 30px;">
+                        <i class="fas fa-shower"></i>
+                        <div>
+                            <h4>Custom Showers</h4>
+                            <p>Walk-in designs featuring rainfall heads and custom-fit frameless glass.</p>
+                        </div>
+                    </div>
+                    <div class="feature" style="display: flex; gap: 20px; margin-bottom: 30px;">
+                        <i class="fas fa-sink"></i>
+                        <div>
+                            <h4>Premium Vanities</h4>
+                            <p>Hand-selected stone tops and custom cabinetry for a high-end finish.</p>
+                        </div>
+                    </div>
+                    <div class="feature" style="display: flex; gap: 20px;">
+                        <i class="fas fa-swatchbook"></i>
+                        <div>
+                            <h4>Precision Tiling</h4>
+                            <p>Expert waterproofing and perfectly aligned tile patterns for lasting beauty.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="details-image">
+                <img src="{% static 'images/bathroom-remodel-atlanta.jpg' %}" alt="Luxury Bathroom Renovation Maryland" style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="bathroom-gallery" style="padding: 80px 0; background: #f9f9f9;">
+        <div class="container">
+            <div class="gallery-header" style="text-align: center; margin-bottom: 50px;">
+                <h2 class="section-title">Our Recent <span>Masterpieces</span></h2>
+                <p>Meticulously crafted bathroom projects in the Maryland area.</p>
+            </div>
+
+            <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom1.jpg' %}" alt="Modern Master Bath" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom2.jpg' %}" alt="Luxury Shower Tile" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom3.jpg' %}" alt="Custom Vanity Installation" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom4.jpg' %}" alt="Spa-Inspired Design" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom5.jpg' %}" alt="Contemporary Fixtures" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom6.jpg' %}" alt="Marble Tile Work" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom7.jpg' %}" alt="Glass Shower Enclosure" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom8.jpg' %}" alt="Double Vanity Remodel" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom9.jpg' %}" alt="Modern Lighting Upgrade" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom10.jpg' %}" alt="Soaking Tub Installation" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom11.jpg' %}" alt="Guest Bath Transformation" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom12.jpg' %}" alt="Sleek Bathroom Finish" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom13.jpg' %}" alt="Custom Shelving & Storage" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom14.jpg' %}" alt="Tile Pattern Design" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom15.jpg' %}" alt="Designer Backsplash" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/bathroom16.jpg' %}" alt="Full Master Suite Overhaul" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay"><span>View Project</span></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="galleryModal" class="gallery-modal" style="display: none; position: fixed; z-index: 2000; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); align-items: center; justify-content: center;">
+        <span class="close-modal" style="position: absolute; top: 30px; right: 40px; color: white; font-size: 50px; cursor: pointer;">&times;</span>
+        <img class="modal-content" id="img01" style="max-width: 85%; max-height: 85%; border-radius: 5px;">
+        <div id="caption" style="color: white; margin-top: 20px; text-align: center;"></div>
+    </div>
+</main>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function openLightbox(element) {
+        const modal = document.getElementById("galleryModal");
+        const modalImg = document.getElementById("img01");
+        const captionText = document.getElementById("caption");
+        const clickedImg = element.getElementsByTagName('img')[0];
+
+        modal.style.display = "flex";
+        modalImg.src = clickedImg.src;
+        captionText.innerHTML = clickedImg.alt;
+    }
+
+    document.querySelector(".close-modal").onclick = function() {
+        document.getElementById("galleryModal").style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById("galleryModal");
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+{% endblock %}

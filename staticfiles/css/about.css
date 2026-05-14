@@ -1,0 +1,134 @@
+/* ABOUT HERO */
+.about-hero {
+    padding: 150px 30px;
+    text-align: center;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh; /* Ensures the hero has good visual impact */
+}
+
+.hero-content h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.hero-content h1 span { color: var(--accent); }
+
+.sub-badge {
+    background: var(--accent);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* STORY SECTION */
+.story-section { padding: 100px 30px; background: var(--white); }
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.story-image { position: relative; }
+
+.story-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.experience-tag {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background: var(--primary);
+    color: var(--white);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 5px solid var(--accent);
+}
+
+.experience-tag .years { font-size: 2.5rem; font-weight: 900; display: block; color: var(--accent); }
+
+.section-title { font-size: 2.5rem; color: var(--primary); margin-bottom: 25px; }
+.section-title span { color: var(--accent); }
+
+.story-text p { font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px; color: var(--text-main); }
+
+.benefit-list { list-style: none; margin-top: 30px; }
+.benefit-list li { margin-bottom: 15px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+.benefit-list i { color: var(--accent); font-size: 1.2rem; }
+
+/* VALUES SECTION */
+.values-section { padding: 100px 30px; background: var(--bg-light); }
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.value-card {
+    background: var(--white);
+    padding: 50px 40px;
+    border-radius: 20px;
+    transition: 0.4s;
+    border-bottom: 4px solid transparent;
+}
+
+.value-card:hover { transform: translateY(-10px); border-color: var(--accent); }
+
+.value-icon {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 107, 53, 0.1);
+    margin-bottom: 20px;
+}
+
+.value-card h3 { font-size: 1.5rem; margin-bottom: 15px; color: var(--primary); }
+
+/* CTA SECTION */
+.about-cta { padding: 100px 30px; }
+.cta-box {
+    background: var(--primary);
+    padding: 80px 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: var(--white);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cta-box h2 { font-size: 2.5rem; margin-bottom: 20px; }
+.btn-primary {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--white);
+    padding: 18px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover { background: #e55a2b; transform: scale(1.05); }
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .grid-2 { grid-template-columns: 1fr; gap: 60px; }
+    .values-grid { grid-template-columns: 1fr; }
+    .experience-tag { position: static; margin-top: 20px; }
+}

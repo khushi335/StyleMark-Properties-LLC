@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Kitchen Remodeling & Design | StyleMark Properties LLC{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/service-detail.css' %}">
+<style>
+    .service-hero {
+        background: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.7)), 
+                    url("{% static 'images/kitchen14.jpg' %}");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .feature i {
+        color: var(--accent);
+        background: rgba(255, 107, 53, 0.1);
+        padding: 15px;
+        border-radius: 12px;
+        font-size: 1.5rem;
+    }
+
+    .feature h4 {
+        color: var(--primary);
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+        opacity: 1 !important;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<main class="service-page">
+    <!-- Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <div class="hero-text">
+                <span class="badge" style="background: var(--accent); color: white;">Culinary Excellence</span>
+                <h1>The Heart of Your <span>Home</span>, Redefined</h1>
+                <p>From custom cabinetry to gourmet chef's kitchens, StyleMark Properties LLC delivers "By the Book" remodeling across Maryland.</p>
+                <a href="{% url 'contact' %}" class="cta-btn" style="background: var(--accent); color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: 700; display: inline-block;">Start Your Kitchen Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="details-section" style="padding: 80px 0;">
+        <div class="container grid-2" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 60px; align-items: center;">
+            <div class="details-image">
+                <img src="{% static 'images/kitchen5.jpg' %}" alt="Luxury Kitchen Renovation by StyleMark Properties" style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+            </div>
+            
+            <div class="details-content">
+                <h2 class="section-title" style="font-size: 2.5rem; color: var(--primary);">Luxury <span>Craftsmanship</span> For Every Meal</h2>
+                <p style="color: #666; line-height: 1.8; margin-bottom: 30px;">A kitchen is more than a place to cook—it's the social hub of your home. We combine high-end aesthetics with ergonomic engineering to create functional masterpieces.</p>
+                
+                <div class="service-features">
+                    <div class="feature" style="display: flex; gap: 20px; margin-bottom: 30px;">
+                        <i class="fas fa-utensils"></i>
+                        <div>
+                            <h4>Custom Cabinetry</h4>
+                            <p>Handcrafted storage with soft-close precision and premium wood finishes.</p>
+                        </div>
+                    </div>
+                    <div class="feature" style="display: flex; gap: 20px; margin-bottom: 30px;">
+                        <i class="fas fa-gem"></i>
+                        <div>
+                            <h4>Stone Countertops</h4>
+                            <p>Expertly installed Quartz, Granite, and Marble surfaces for timeless durability.</p>
+                        </div>
+                    </div>
+                    <div class="feature" style="display: flex; gap: 20px;">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <h4>Smart Layouts</h4>
+                            <p>Optimizing the workflow for a seamless, ergonomic cooking experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kitchen Transformation Gallery -->
+    <section class="bathroom-gallery" style="padding: 80px 0; background: #fcfcfc;">
+        <div class="container">
+            <div class="gallery-header" style="text-align: center; margin-bottom: 50px;">
+                <span class="sub-badge" style="color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">Portfolio</span>
+                <h2 class="section-title">Kitchen <span>Showcase</span></h2>
+                <p>Browse our recent kitchen transformations in Columbia, Ellicott City, and Randallstown.</p>
+            </div>
+
+            <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen1.jpg' %}" alt="Modern Gourmet Kitchen" style="width: 100%; height: 100%; object-fit: cover; transition: 0.5s;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.3s;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen.jpg' %}" alt="Custom Shaker Kitchen" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen3.jpg' %}" alt="Contemporary Kitchen Island" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen4.jpg' %}" alt="Open Concept Kitchen" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen5.jpg' %}" alt="Luxury Backsplash Detail" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen6.jpg' %}" alt="High-End Appliances Integration" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen7.jpg' %}" alt="Modern Kitchen Lighting" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen8.jpg' %}" alt="Quartz Countertop Finish" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen9.jpg' %}" alt="Chef's Kitchen Layout" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen10.jpg' %}" alt="Maryland Kitchen Remodel" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen11.jpg' %}" alt="Ellicott City Kitchen Upgrade" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" onclick="openLightbox(this)" style="position: relative; overflow: hidden; border-radius: 12px; cursor: pointer; height: 280px;">
+                    <img src="{% static 'images/kitchen12.jpg' %}" alt="Columbia MD Kitchen Design" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 107, 53, 0.85); display: flex; align-items: center; justify-content: center; opacity: 0;">
+                        <span style="color: white; font-weight: 700;">View Project</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Lightbox Modal -->
+<div id="galleryModal" class="gallery-modal" style="display: none; position: fixed; z-index: 2000; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.92); align-items: center; justify-content: center;">
+    <span class="close-modal" style="position: absolute; top: 30px; right: 40px; color: white; font-size: 50px; cursor: pointer; font-family: sans-serif;">&times;</span>
+    <img class="modal-content" id="img01" style="max-width: 85%; max-height: 85%; border-radius: 5px; box-shadow: 0 0 20px rgba(255,255,255,0.1);">
+    <div id="caption" style="color: white; margin-top: 20px; font-size: 1.2rem; font-weight: 500;"></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function openLightbox(element) {
+        const modal = document.getElementById("galleryModal");
+        const modalImg = document.getElementById("img01");
+        const captionText = document.getElementById("caption");
+        const clickedImg = element.getElementsByTagName('img')[0];
+
+        modal.style.display = "flex";
+        modalImg.src = clickedImg.src;
+        captionText.innerHTML = clickedImg.alt;
+    }
+
+    document.querySelector(".close-modal").onclick = function() {
+        document.getElementById("galleryModal").style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById("galleryModal");
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+{% endblock %}
