@@ -26,7 +26,7 @@
                 <h1>Modern Kitchens Built for <span class="text-gradient">Living</span></h1>
                 <p>Custom cabinetry, elegant finishes, and expert craftsmanship tailored to your lifestyle.</p>
                 <div class="slide-btns">
-                    <a href="#contact" class="btn-glow">Get a Free Quote</a>
+                    <a href="{% url 'contact' %}" class="btn-glow">Get a Free Quote</a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <h1>Create Your Personal <span class="text-gradient">Retreat</span></h1>
                 <p>Beautiful bathroom renovations featuring premium tile work, lighting, and modern fixtures.</p>
                 <div class="slide-btns">
-                    <a href="#contact" class="btn-glow">Book Consultation</a>
+                    <a href="{% url 'contact' %}" class="btn-glow">Book Consultation</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                 <h1>Reliable Roofing That <span class="text-gradient">Protects</span></h1>
                 <p>Professional roof installation and repairs designed for durability, safety, and long-term performance.</p>
                 <div class="slide-btns">
-                    <a href="#contact" class="btn-glow">View Roofing Services</a>
+                    <a href="{% url 'contact' %}" class="btn-glow">View Roofing Services</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                 <h1>Transforming Homes with <span class="text-gradient">Excellence</span></h1>
                 <p>From complete home renovations to custom upgrades, we bring your vision to life with unmatched attention to detail.</p>
                 <div class="slide-btns">
-                    <a href="#contact" class="btn-glow">Explore Services</a>
+                    <a href="{% url 'contact' %}" class="btn-glow">Explore Services</a>
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
                 <!-- Action Area -->
                 <div class="action-footer">
 
-                    <a href="#contact" class="btn-modern">
+                    <a href="{% url 'contact' %}" class="btn-modern">
                         Get a Free Consultation
                         <i class="fas fa-arrow-right"></i>
                     </a>
@@ -253,7 +253,7 @@
 
         <!-- CTA -->
         <div class="trust-cta">
-            <a href="#contact" class="btn-trust">
+            <a href="{% url 'contact' %}" class="btn-trust">
                 Get Free Estimate
             </a>
         </div>
@@ -381,7 +381,7 @@
 
                     </div>
 
-                    <a href="#contact" class="btn-sidebar">
+                    <a href="{% url 'contact' %}" class="btn-sidebar">
                         Book Consultation
                     </a>
 
@@ -497,7 +497,7 @@
                             your home and investment.
                         </p>
 
-                        <a href="#"
+                        <a href="{% url 'roofing' %}"
                            class="view-btn">
                             Explore
                             <i class="fas fa-arrow-right"></i>
@@ -528,7 +528,7 @@
                             to your style and vision.
                         </p>
 
-                        <a href="#"
+                        <a href="{% url 'full_renovation' %}"
                            class="view-btn">
                             Explore
                             <i class="fas fa-arrow-right"></i>
@@ -888,7 +888,7 @@
                     designed to protect your home year-round.
                 </p>
 
-                <a href="#"
+                <a href="{% url 'roofing' %}"
                    class="service-link">
                     View Details →
                 </a>
@@ -920,7 +920,7 @@
                     to fit your vision, lifestyle, and budget.
                 </p>
 
-                <a href="#"
+                <a href="{% url 'full_renovation' %}"
                    class="service-link">
                     View Details →
                 </a>
@@ -932,151 +932,6 @@
     </div>
 
 </section>
-
-<!--<section class="expertise-section">-->
-
-<!--    <div class="expertise-container">-->
-
-        <!-- Left Content -->
-<!--        <div class="expertise-intro">-->
-
-<!--            <span class="tag">-->
-<!--                Our Expertise-->
-<!--            </span>-->
-
-<!--            <h2 class="display-title">-->
-<!--                Exceptional <br>-->
-<!--                <span>Craftsmanship.</span>-->
-<!--            </h2>-->
-
-<!--            <p>-->
-<!--                From remodeling and renovations to roofing and custom-->
-<!--                construction, StyleMark Properties LLC delivers-->
-<!--                professional results with precision and attention to detail.-->
-<!--            </p>-->
-
-<!--            <a href="#contact" class="transformation-btn">-->
-<!--                Start Your Project →-->
-<!--            </a>-->
-
-<!--        </div>-->
-
-        <!-- Right Content -->
-<!--        <div class="expertise-list">-->
-            
-            <!-- Item 01 -->
-<!--            <div class="expertise-item">-->
-
-<!--                <div class="item-number">-->
-<!--                    01-->
-<!--                </div>-->
-
-<!--                <div class="item-content">-->
-
-<!--                    <h3>Kitchen Remodeling</h3>-->
-
-<!--                    <p>-->
-<!--                        Modern kitchen transformations with custom-->
-<!--                        cabinetry, elegant countertops, and functional layouts.-->
-<!--                    </p>-->
-
-<!--                </div>-->
-
-<!--                <div class="item-image">-->
-
-<!--                    <img src="{% static 'images/kitchen-remodel.jpg' %}"-->
-<!--                         alt="Kitchen Remodeling">-->
-
-<!--                </div>-->
-
-<!--            </div>-->
-
-            <!-- Item 02 -->
-<!--            <div class="expertise-item">-->
-
-<!--                <div class="item-number">-->
-<!--                    02-->
-<!--                </div>-->
-
-<!--                <div class="item-content">-->
-
-<!--                    <h3>Bathroom Renovations</h3>-->
-
-<!--                    <p>-->
-<!--                        Luxury bathrooms designed with premium tile,-->
-<!--                        stylish fixtures, and spa-inspired comfort.-->
-<!--                    </p>-->
-
-<!--                </div>-->
-
-<!--                <div class="item-image">-->
-
-<!--                    <img src="{% static 'images/bathroom-remodel.jpg' %}"-->
-<!--                         alt="Bathroom Remodeling">-->
-
-<!--                </div>-->
-
-<!--            </div>-->
-
-            <!-- Item 03 -->
-<!--            <div class="expertise-item">-->
-
-<!--                <div class="item-number">-->
-<!--                    03-->
-<!--                </div>-->
-
-<!--                <div class="item-content">-->
-
-<!--                    <h3>Roofing Services</h3>-->
-
-<!--                    <p>-->
-<!--                        Durable roofing installations and repairs-->
-<!--                        that provide long-lasting protection and reliability.-->
-<!--                    </p>-->
-
-<!--                </div>-->
-
-<!--                <div class="item-image">-->
-
-<!--                    <img src="{% static 'images/roofing-service.jpg' %}"-->
-<!--                         alt="Roofing Services">-->
-
-<!--                </div>-->
-
-<!--            </div>-->
-
-            <!-- Item 04 -->
-<!--            <div class="expertise-item">-->
-
-<!--                <div class="item-number">-->
-<!--                    04-->
-<!--                </div>-->
-
-<!--                <div class="item-content">-->
-
-<!--                    <h3>Full Renovations</h3>-->
-
-<!--                    <p>-->
-<!--                        Complete property transformations tailored-->
-<!--                        to your vision, lifestyle, and investment goals.-->
-<!--                    </p>-->
-
-<!--                </div>-->
-
-<!--                <div class="item-image">-->
-
-<!--                    <img src="{% static 'images/home-renovation.jpg' %}"-->
-<!--                         alt="Home Renovation">-->
-
-<!--                </div>-->
-
-<!--            </div>-->
-
-<!--        </div>-->
-
-<!--    </div>-->
-
-<!--</section>-->
 
 <section class="premium-areas">
 
@@ -1140,7 +995,7 @@
 
             <p>
                 Don’t see your location?
-                <a href="#contact">
+                <a href="{% url 'contact' %}">
                     Contact us for service availability
                 </a>
             </p>
@@ -1151,202 +1006,107 @@
 
 </section>
 
-<section class="contact-section">
+<section class="contact-section" id="contact">
 
     <div class="contact-container">
-
         <div class="contact-wrapper">
             
             <!-- Left Side -->
             <div class="contact-info">
-
                 <div class="contact-header">
-
-                    <span class="tag">
-                        Get In Touch
-                    </span>
-
-                    <h2>
-                        Let’s Build Something <br>
-                        <span>Extraordinary</span>
-                    </h2>
-
-                    <p>
-                        Ready to transform your property?
-                        Contact StyleMark Properties LLC today
-                        for a free consultation and estimate.
-                    </p>
-
+                    <span class="tag">Get In Touch</span>
+                    <h2>Let’s Build Something <br><span>Extraordinary</span></h2>
+                    <p>Ready to transform your property? Contact StyleMark Properties LLC today for a free consultation and estimate.</p>
                 </div>
 
                 <div class="info-items">
-
                     <!-- Phone -->
                     <a href="tel:+14103294776" class="info-card">
-
                         <div class="icon-box">
-
-                            <svg viewBox="0 0 24 24"
-                                 fill="none"
-                                 stroke="currentColor"
-                                 stroke-width="2">
-
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-
                             </svg>
-
                         </div>
-
                         <div>
-
-                            <h4>
-                                Call Us Directly
-                            </h4>
-
-                            <p>
-                                (410) 329-4776
-                            </p>
-
+                            <h4>Call Us Directly</h4>
+                            <p>(410) 329-4776</p>
                         </div>
-
                     </a>
 
                     <!-- Email -->
-                    <a href="mailto:info@stylemarkllc.com" class="info-card">
-
+                    <a href="mailto:stylemarkpropertiesllc@gmail.com" class="info-card">
                         <div class="icon-box">
-
-                            <svg viewBox="0 0 24 24"
-                                 fill="none"
-                                 stroke="currentColor"
-                                 stroke-width="2">
-
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-
                                 <polyline points="22,6 12,13 2,6"></polyline>
-
                             </svg>
-
                         </div>
-
                         <div>
-
-                            <h4>
-                                Email Support
-                            </h4>
-
-                            <p>
-                                info@stylemarkllc.com
-                            </p>
-
+                            <h4>Email Support</h4>
+                            <p>stylemarkpropertiesllc@gmail.com</p>
                         </div>
-
                     </a>
-
                 </div>
-
             </div>
 
-            <!-- Right Side -->
+            <!-- Right Side (Form & Messages) -->
             <div class="contact-form-card">
+                <!-- Django Message Display -->
+                {% if messages %}
+                    <div class="messages-container" style="margin-bottom: 20px;">
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }}" 
+                                style="padding: 12px; border-radius: 6px; margin-bottom: 10px; font-weight: 500; background: {% if message.tags == 'success' %}#E6F4EA{% else %}#FCE8E6{% endif %}; color: {% if message.tags == 'success' %}#137333{% else %}#C5221F{% endif %}; border: 1px solid {% if message.tags == 'success' %}#CEEAD6{% else %}#FAD2CF{% endif %};">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
 
-                <form action="#" class="modern-form">
+                <!-- Added action="#contact" to keep form targeting bound here -->
+                <form action="#contact" method="POST" class="modern-form">
+                    {% csrf_token %}
 
                     <div class="form-grid">
-
                         <div class="input-group">
-
-                            <label>
-                                Full Name
-                            </label>
-
-                            <input type="text"
-                                   placeholder="John Doe"
-                                   required>
-
+                            <label>Full Name</label>
+                            <input type="text" name="name" placeholder="John Doe" required>
                         </div>
 
                         <div class="input-group">
-
-                            <label>
-                                Email Address
-                            </label>
-
-                            <input type="email"
-                                   placeholder="john@example.com"
-                                   required>
-
+                            <label>Email Address</label>
+                            <input type="email" name="email" placeholder="john@example.com" required>
                         </div>
-
                     </div>
 
                     <div class="input-group">
-
-                        <label>
-                            Service Interested In
-                        </label>
-
-                        <select>
-
-                            <option>
-                                Kitchen Remodeling
-                            </option>
-
-                            <option>
-                                Bathroom Remodeling
-                            </option>
-
-                            <option>
-                                Roofing Services
-                            </option>
-
-                            <option>
-                                Full Renovation
-                            </option>
-
+                        <label>Service Interested In</label>
+                        <select name="subject">
+                            <option value="Kitchen Remodeling">Kitchen Remodeling</option>
+                            <option value="Bathroom Remodeling">Bathroom Remodeling</option>
+                            <option value="Roofing Services">Roofing Services</option>
+                            <option value="Deck Construction">Deck Construction</option>
+                            <option value="Full Renovation">Full Renovation</option>
+                            <option value="Other Services">Other Services</option>
                         </select>
-
                     </div>
 
                     <div class="input-group">
-
-                        <label>
-                            How Can We Help?
-                        </label>
-
-                        <textarea rows="4"
-                                  placeholder="Tell us about your project..."></textarea>
-
+                        <label>How Can We Help?</label>
+                        <textarea name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
                     </div>
 
                     <button type="submit" class="submit-btn">
-
                         Send Message
-
-                        <svg viewBox="0 0 24 24"
-                             width="18"
-                             fill="none"
-                             stroke="currentColor"
-                             stroke-width="2">
-
-                            <line x1="22"
-                                  y1="2"
-                                  x2="11"
-                                  y2="13"></line>
-
+                        <svg viewBox="0 0 24 24" width="18" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
                             <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-
                         </svg>
-
                     </button>
-
                 </form>
-
             </div>
 
         </div>
-
     </div>
-
 </section>
 {% endblock %}

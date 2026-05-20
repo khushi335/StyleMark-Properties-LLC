@@ -1820,8 +1820,8 @@ body { font-family: 'Inter', sans-serif; color: var(--text-main); background: va
 
 /* BRAND COLUMN */
 .footer-logo { 
-    height: 60px; 
-    margin-bottom: 25px; 
+    height: 110px; 
+    margin-bottom: 15px; 
     filter: brightness(0) invert(1); /* Keeps logo white on dark bg */
 }
 
